@@ -24,10 +24,6 @@ class Tasks extends Component{
         this.tasks.push([name, description, deadline])
     }
 
-    displayCols = (value) => {
-        return value.map((col, index) => <td key={index}>{col}</td>)
-    }
-
     render() {
         return (
             <>
